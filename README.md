@@ -2,22 +2,18 @@
 
 ## 1. Subscription Flow
 
-### Freemium Model
-- The app follows a **freemium model**, where users get free access with ads.
+### 1.2 Subscription Options
+   Users can choose from the following plans:
+   - **Monthly** → `$ Price TBD`
+   - **Yearly** → `$ TBD` (initially highlighted)
+   - **Lifetime** → `$ TBD`
 
-### Subscription Options
-Users can choose from the following plans:
-- **Monthly** → `$ Price TBD`
-- **Yearly (Recommended)** → `$ TBD`
-- **Lifetime** → `$ TBD`
+- The **1-year plan** is visually marked as (**Recommended**).
 
-- The **1-year plan** is visually marked as the best offer.
-- The **"Subscribe"** button activates once a plan is selected.
-
-### Subscription Activation
+### 1.3 Subscription Activation
 When the user clicks **"Subscribe"**:
-1. The app initiates the **in-app purchase process** via Apple/Google.
-2. If the payment is **successful**:
+A. The app initiates the **in-app purchase process** via Apple/Google.
+B. If the payment is **successful**:
    - Ads are removed.
    - Premium features are unlocked (e.g., **VIP support**).
    - A confirmation message appears:
@@ -26,17 +22,15 @@ When the user clicks **"Subscribe"**:
      "Congratulations! You’ve successfully upgraded to Premium."
      ```
    - The UI updates to reflect **premium status**.
-3. If the payment **fails**, an error message appears.
+C. If the payment **fails**, an error message appears.
 
-### Subscription Wall Behavior (After Purchase)
-- If a **subscribed user** reopens the subscription page:
+### 1.4 Subscription Wall Behavior (After Purchase)
+- If a **subscribed user** reopens the subscription page the app pop-up the next:
 
   ```
   "You're already subscribed to the (package name). Do you want to change your plan?"
   ```
-
-
-
+  With Yes & No options
 - **Yes** → Allows switching to another package.
 - **No** → Closes the subscription page.
 
@@ -45,7 +39,6 @@ When the user clicks **"Subscribe"**:
   ```
   "You're already subscribed to this package."
   ```
-
 ---
 
 ## 2. Restore Purchase Flow
