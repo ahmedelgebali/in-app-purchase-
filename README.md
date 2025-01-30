@@ -57,7 +57,7 @@ C. If the payment **fails**, an error message appears.
   ```
 
 
-- If the user clicks **Restore Purchase** while **already subscribed**, the app should **not** show `"No valid subscription."` Instead, it should display:
+- If the user clicks **Restore Purchase** while **already subscribed**, the app displays:
 
   ```
   "Your purchase is already active."
